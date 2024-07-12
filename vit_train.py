@@ -171,6 +171,7 @@ def train_and_evaluate():
     print(f'Accuracy: {accuracy:.4f}')
     print(f'F1 Score: {f1:.4f}')
 
+
     # 保存并展示评估指标图
     fig, ax = plt.subplots()
     ax.bar(['Accuracy', 'F1 Score'], [accuracy, f1])

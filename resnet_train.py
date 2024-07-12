@@ -156,6 +156,7 @@ def evaluate_model():
             all_preds.append(preds)
             all_labels.append(labels.cpu().numpy())
 
+
     all_preds = np.vstack(all_preds)
     all_labels = np.vstack(all_labels)
     all_preds_binary = (all_preds > 0.5).astype(int)

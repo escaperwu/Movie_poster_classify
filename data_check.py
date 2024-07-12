@@ -5,6 +5,7 @@ output_file_path = 'C:\\Users\\29235\\Downloads\\Poster_Classifier\\filtered_mov
 # 导入所需的库
 import pandas as pd
 
+
 # 读取CSV文件
 data = pd.read_csv(input_file_path)
 

@@ -85,6 +85,7 @@ with ThreadPoolExecutor(max_workers=100) as executor:
 # 过滤出下载成功的记录
 successful_downloads = [result for result in results if result is not None]
 
+
 # 创建新的DataFrame保存下载成功的电影信息
 success_df = pd.DataFrame(successful_downloads)
 

@@ -22,11 +22,11 @@ class CustomViT(nn.Module):
 # 加载模型和标签
 num_classes = 19  # 根据训练时的num_classes进行修改
 model = CustomViT(num_classes=num_classes)
-model.load_state_dict(torch.load('../vit_classifier.pth'))
+model.load_state_dict(torch.load('vit_classifier.pth'))
 model.eval()
 
 # 加载MultiLabelBinarizer
-mlb = joblib.load('../mlb.pkl')
+mlb = joblib.load('mlb.pkl')
 
 # 图像预处理
 transform = transforms.Compose([
