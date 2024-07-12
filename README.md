@@ -32,12 +32,8 @@ To run this project, you need the following dependencies:
 - Pillow
 - Matplotlib
 - TQDM
+.......
 
-Install the dependencies using pip:
-
-```sh
-pip install torch torchvision transformers scikit-learn pillow matplotlib tqdm
-```
 
 ## data processing
 
