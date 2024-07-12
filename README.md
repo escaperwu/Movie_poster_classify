@@ -39,13 +39,20 @@ Install the dependencies using pip:
 pip install torch torchvision transformers scikit-learn pillow matplotlib tqdm
 ```
 ##data processing
+
 run data_check.py
+
 ##poster downloading
+
 run download.py
+
 ##train 
+
 run vit_train.py
 or resnet_train.py
+
 ##predict
+
 In RESNET/VIT 
 run the predict scripts.
 
