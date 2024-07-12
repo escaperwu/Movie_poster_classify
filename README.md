@@ -19,13 +19,14 @@ The goal of this project is to predict the genre of a movie by analyzing its pos
 ## Dataset
 
 The dataset consists of movie posters along with their corresponding genres. The genres are encoded as multi-labels since a movie can belong to more than one genre.
+download：https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies
 
 ## Prerequisites
 
 To run this project, you need the following dependencies:
 
 - Python 3.11
-- PyTorch
+- PyTorch with gpu
 - Transformers
 - Scikit-learn
 - Pillow
@@ -36,3 +37,20 @@ Install the dependencies using pip:
 
 ```sh
 pip install torch torchvision transformers scikit-learn pillow matplotlib tqdm
+```
+##data processing
+run data_check.py
+##poster downloading
+run download.py
+##train 
+run vit_train.py
+or resnet_train.py
+##predict
+In RESNET/VIT 
+run the predict scripts.
+
+have a great day!!
+
+
+
+
