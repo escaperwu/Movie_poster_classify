@@ -38,6 +38,7 @@ Install the dependencies using pip:
 ```sh
 pip install torch torchvision transformers scikit-learn pillow matplotlib tqdm
 ```
+
 ##data processing
 
 run data_check.py
