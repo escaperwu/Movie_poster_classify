@@ -1,0 +1,38 @@
+# Movie Poster Genre Classification
+
+This project is designed to classify movie genres based on movie posters using advanced deep learning models. The primary models used are Vision Transformer (ViT) and ResNet.
+
+## Overview
+
+The goal of this project is to predict the genre of a movie by analyzing its poster. By leveraging state-of-the-art image classification models, we aim to achieve high accuracy in genre classification.
+
+## Models Used
+
+1. **Vision Transformer (ViT)**:
+   - ViT models treat an image as a sequence of patches and process them using transformer architecture.
+   - This model can capture complex relationships within the image, making it suitable for tasks like genre classification.
+
+2. **ResNet**:
+   - ResNet is a convolutional neural network (CNN) that is widely used for image classification tasks.
+   - By using residual learning, ResNet can effectively train very deep networks.
+
+## Dataset
+
+The dataset consists of movie posters along with their corresponding genres. The genres are encoded as multi-labels since a movie can belong to more than one genre.
+
+## Prerequisites
+
+To run this project, you need the following dependencies:
+
+- Python 3.x
+- PyTorch
+- Transformers
+- Scikit-learn
+- Pillow
+- Matplotlib
+- TQDM
+
+Install the dependencies using pip:
+
+```sh
+pip install torch torchvision transformers scikit-learn pillow matplotlib tqdm
