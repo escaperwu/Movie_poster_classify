@@ -1,6 +1,6 @@
 # Movie Poster Genre Classification
 
-This project is designed to classify movie genres based on movie posters using advanced deep learning models. The primary models used are Vision Transformer (ViT) and ResNet.
+This project is designed to classify movie genres based on movie posters using advanced deep learning models. The primary models used are Vision Transformer (ViT) and ResNet50.
 
 ## Overview
 
@@ -24,7 +24,7 @@ The dataset consists of movie posters along with their corresponding genres. The
 
 To run this project, you need the following dependencies:
 
-- Python 3.x
+- Python 3.11
 - PyTorch
 - Transformers
 - Scikit-learn
